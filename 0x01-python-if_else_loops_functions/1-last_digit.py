@@ -12,6 +12,6 @@ if modulo > 5:
     print("Last digit of", number, "is", modulo, "and is greater than 5")
 elif modulo == 0:
     print("Last digit of", number, "is", modulo, "and is 0")
-else:
+elif modulo < 6 and modulo != 0:
     print("Last digit of", number, "is", modulo, end=" ")
     print("and is less than 6 and not 0")
