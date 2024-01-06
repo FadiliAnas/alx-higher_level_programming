@@ -3,12 +3,12 @@ def print_matrix_integer(matrix=[[]]):
     i = 0
     if matrix == [[]]:
         print()
-    else:   
+    else:
         while i < len(matrix):
             j = 0
             while j < len(matrix[i]):
-            # Print the element at the current position followed by a space
-            
+                # Print the element at the current position followed by a space
+
                 if j == len(matrix) - 1:
                     print("{:d}".format(matrix[i][j]))
                 else:
