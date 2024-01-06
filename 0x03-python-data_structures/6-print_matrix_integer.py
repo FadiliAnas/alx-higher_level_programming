@@ -9,6 +9,6 @@ def print_matrix_integer(matrix=[[]]):
             # Print the element at the current position
             print("{:d}".format(matrix[i][j]), end=" ")
             j += 1
-        print("$",end=" ")
+        print("$", end=" ")
         print()  # Move to the next line after printing each row
         i += 1
