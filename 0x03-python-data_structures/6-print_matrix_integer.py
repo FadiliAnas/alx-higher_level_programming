@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 def print_matrix_integer(matrix=[[]]):
     # Loop through each row in the matrix
     i = 0
