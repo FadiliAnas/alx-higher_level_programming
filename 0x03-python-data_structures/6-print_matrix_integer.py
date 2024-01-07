@@ -1,17 +1,8 @@
 #!/usr/bin/python3
 def print_matrix_integer(matrix=[[]]):
-    i = 0
-    if matrix == [[]]:
-        print()
-    else:
-        while i < len(matrix):
-            j = 0
-            while j < len(matrix[i]):
-                # Print the element at the current position followed by a space
-
-                if j == len(matrix) - 1:
-                    print("{:d}".format(matrix[i][j]))
-                else:
-                    print("{:d}".format(matrix[i][j]), end=" ")
-                j += 1
-            i += 1
+    for i in range(len(matrix)):
+        for j in range(len(matrix[i])):
+            print("{:d}".format(matrix[i][j]), end="")
+            if j != len(matrix[i]) - 1:
+                print(end=" ")
+        print(end="\n")
