@@ -1,1 +1,3 @@
 Firt README
+mac update
+
