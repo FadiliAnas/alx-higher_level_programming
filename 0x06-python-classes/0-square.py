@@ -1,3 +1,7 @@
 #!/usr/bin/python3
-class Square():
+"""Square Module"""
+
+
+class Square:
+    """Define a Class named Square"""
 
